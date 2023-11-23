@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Web Transbank",
+        "Description": "Landing Page para distribuicion de productos Mpos y Pack emprende de la marca Tranbank, esta Landing fue creada con framework React.js con tailwindcss para el diseño y para el backend se realizo un API con Node.js, Una base de datos PostgreSQL, y este backend se hoste en un lamda de AWS con el framework Serverless. para el deploy de la pagina se utilizo AWS Amplify facilitando la creacion de un dominio QA Y PROD. se integro una pasarela de pago con la API de Transbank para la compra de los productos. ",
+        "img": "TransbankProject",
+        "url": "https://www.vendeconmaquina.cl",
+        "empresa": "Simple Soluciones",
+        "tecnologias":"React.js, Node.js, AWS, RDS, Lambda, PostgreSQL, Micro-fronted, Tailwind, Javascript, CSS, HTML",
+        "fecha": "2023"
+    },
+    {
+        "id": "2",
+        "name": "N&S Clinica Dental",
+        "Description": "Landing Page para Clinica Dental N&S, esta Landing fue creada con framework React.JS y para el backend se realizo un API con Node.js, Una base de datos PostgreSQL, y este backend se hosteo en servicio lambda AWS. para el deploy de la pagina se utilizo AWS Amplify facilitando la creacion de un dominio QA Y PROD. Cuenta con un fromulario de contacto que envia un correo a la clinica con los datos ingresados por el usuario para facilitar la comunicacion con los pacientes",
+        "img": "NSProject",
+        "url": "https://www.nysestudiodental.cl",
+        "empresa": "Simple Soluciones",
+        "fecha": "2023",
+        "tecnologias":"React.js, Node.js, AWS, RDS, Lambda, PostgreSQL, Micro-fronted, Tailwind, Javascript, CSS, HTML"
+    },
+    {
+        "id": "3",
+        "name": "Descuentos-Movistar",
+        "Description": "Landing Page para comercializacion de productos Movistar. Esta landing page fue realizada con el framework de Angular y se uso Springboot para el backend. se estructuro con arquitectura micro-fronted para agilizar los cambios requeridos por el cliente. toda la informacion de la pagina esta alojada en la base de datos lo que permite realizar cambios sin necesidad de hacer pasos a produccion. El backend esta hosteado en AWS en un EC2 y la base de datos en un RDS. ",
+        "img": "MovistartProject",
+        "url": "https://www.descuentos-movistar.cl",
+        "empresa": "Simple Soluciones",
+        "tecnologias":"Angular, Springboot, AWS, RDS, EC2, PostgreSQL, Micro-fronted, Nodejs, Javascript, CSS, HTML",
+        "fecha": "2023"
+    }
+]
