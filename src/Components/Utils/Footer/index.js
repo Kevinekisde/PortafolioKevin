@@ -6,7 +6,10 @@ function Footer() {
     return (
         <div className='w-full bg-black text-[#ededed] h-min flex  justify-between items-start'>
             <div className='md:max-w-[1200px] 2xl:max-w-[1500px] w-full flex flex-col md:flex-row mx-auto justify-between md:items-center px-4 md:px-0 py-10'>
-                <h1 className='text-4xl'>Contactame</h1>
+                <div className='flex flex-col'>
+                    <h1 className='text-4xl'>Contactame</h1>
+                    <a href='/contact' className='border border-white rounded-full text-center px-10 py-4 self-start mt-2'>{`Hablemos ➡️`}</a>
+                </div>
                 <div className='mt-5'>
                     <div className='flex items-center justify-center gap-5'>
                         <FaLinkedin className='text-3xl' />

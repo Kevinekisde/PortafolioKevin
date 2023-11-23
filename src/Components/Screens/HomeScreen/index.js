@@ -28,7 +28,7 @@ function HomeScreen() {
 
     return (
         <div className='w-full text-[#171717] font-normal h-min flex flex-col items-center overflow-hidden'>
-            <div className='2xl:max-w-[1500px] md:max-w-[1200px] max-w-[400px] h-min p-5'>
+            <div className='2xl:max-w-[1500px] md:max-w-[1200px] max-w-[370px] h-min p-5'>
                 <Carousel />
             </div>
             <div className='flex flex-col mx-auto items-center justify-center text-center max-w-[1500px] p-5 w-full'>
