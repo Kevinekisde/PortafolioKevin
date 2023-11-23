@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 
 function Footer() {
+
+    const hiddenContactUrl = () => {
+        const footer = document.getElementById('footer')
+        if (window.location.pathname == '/contact') {
+            footer.classList.add('hidden')
+        }else{
+            footer.classList.remove('hidden')
+        }
+    }
+
+    useEffect(() => {
+        hiddenContactUrl()
+    }, [])
+
     return (
-        <div className='w-full bg-black text-[#ededed] h-min flex  justify-between items-start'>
+        <div id='footer' className='w-full bg-black text-[#ededed] h-min flex  justify-between items-start'>
             <div className='md:max-w-[1200px] 2xl:max-w-[1500px] w-full flex flex-col md:flex-row mx-auto justify-between md:items-center px-4 md:px-0 py-10'>
                 <div className='flex flex-col'>
                     <h1 className='text-4xl'>Contactame</h1>
