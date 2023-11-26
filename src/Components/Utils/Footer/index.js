@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
 
@@ -18,11 +19,11 @@ function Footer() {
     }, [])
 
     return (
-        <div id='footer' className='w-full bg-black text-[#ededed] h-min flex  justify-between items-start'>
+        <div id='footer' className='w-full bg-[#171717] text-[#ededed] h-min flex  justify-between items-start'>
             <div className='md:max-w-[1200px] 2xl:max-w-[1500px] w-full flex flex-col md:flex-row mx-auto justify-between md:items-center px-4 md:px-0 py-10'>
                 <div className='flex flex-col'>
                     <h1 className='text-4xl'>Contactame</h1>
-                    <a href='/contact' className='border border-white rounded-full text-center px-10 py-4 self-start mt-2'>{`Hablemos ➡️`}</a>
+                    <NavLink to='/contact' className='btn text-white bg-[#171717] hover:bg-[#171717] border-white border mt-5 font-normal text-2xl '>{`Hablemos`}</NavLink>
                 </div>
                 <div className='mt-5'>
                     <div className='flex items-center justify-center gap-5'>

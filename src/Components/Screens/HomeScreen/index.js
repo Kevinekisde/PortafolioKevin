@@ -10,6 +10,7 @@ import Footer from '../../Utils/Footer'
 import Fade from 'react-reveal/Fade';
 import Timeline from '../../Utils/TimeLine'
 import { Zoom } from 'react-reveal'
+import { NavLink } from 'react-router-dom'
 
 
 function HomeScreen() {
@@ -36,6 +37,9 @@ function HomeScreen() {
                     <h2 className='text-4xl md:text-5xl font-semibold py-5'>Hola soy Kevin 👋</h2>
                 </Zoom>
                 <p className='text-xl text-[#6f6f6f] md:w-[40%]'>Soy Kevin Leiva, un Desarrollador Full-Stack Apasionado. Con habilidades punteras en front-end y back-end. Creatividad, eficiencia y atención al detalle son mis herramientas!.💻</p>
+                <NavLink to='/contact' className='btn btn-wide hover:bg-[#171717] bg-[#171717] text-white text-lg font-normal mt-5'>
+                    Hablemos Aqui
+                </NavLink>
             </div>
             <div className='flex flex-col mx-auto items-start justify-start text-center md:max-w-[1200px] 2xl:max-w-[1500px] p-5 w-full'>
                 <h2 className='text-4xl font-semibold py-5 border-b-2 w-full text-center md:text-left'>Mis ultimos proyectos 💾</h2>
@@ -62,7 +66,7 @@ function HomeScreen() {
                 <h2 className='text-4xl font-semibold py-5 border-b-2 w-full text-left'>Experiencia 📖</h2>
                 <div className='flex flex-col  justify-center items-center w-full py-10 gap-10'>
                     <div className='flex gap-5'>
-                        <div className='bg-black text-white rounded-full'>
+                        <div className='bg-[#171717] text-white rounded-full'>
                             <p className='text-5xl md:text-7xl p-10'>+4</p>
                         </div>
                         <div className='flex flex-col items-start justify-center'>

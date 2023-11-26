@@ -80,7 +80,7 @@ function Timeline() {
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <button onClick={() => setEmpresa('Universidad Autonoma de Chile')} class="timeline-start md:timeline-end timeline-box focus:bg-black focus:text-white bg-transparent text-sm cursor-pointer active">Universidad Autonoma de Chile</button>
+                    <button onClick={() => setEmpresa('Universidad Autonoma de Chile')} class="timeline-start md:timeline-end timeline-box focus:bg-[#171717] focus:text-white bg-transparent text-sm cursor-pointer active">Universidad Autonoma de Chile</button>
                     <hr />
                 </li>
                 <li>
@@ -89,7 +89,7 @@ function Timeline() {
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <button onClick={() => setEmpresa('Henry')} class="timeline-end timeline-box focus:bg-black focus:text-white bg-transparent text-sm cursor-pointer">Henry<br></br> Fullstack Developer</button>
+                    <button onClick={() => setEmpresa('Henry')} class="timeline-end timeline-box focus:bg-[#171717] focus:text-white bg-transparent text-sm cursor-pointer">Henry<br></br> Fullstack Developer</button>
                     <hr />
                 </li>
                 <li>
@@ -98,7 +98,7 @@ function Timeline() {
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <button onClick={() => setEmpresa('Bresh')} class="timeline-start md:timeline-end focus:bg-black focus:text-white  timeline-box bg-transparent text-sm cursor-pointer">Bresh <br></br> Fullstack Developer</button>
+                    <button onClick={() => setEmpresa('Bresh')} class="timeline-start md:timeline-end focus:bg-[#171717] focus:text-white  timeline-box bg-transparent text-sm cursor-pointer">Bresh <br></br> Fullstack Developer</button>
                     <hr />
                 </li>
                 <li>
@@ -107,7 +107,7 @@ function Timeline() {
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <button onClick={() => setEmpresa('Konabil')} class="timeline-end timeline-box focus:bg-black focus:text-white bg-transparent text-sm cursor-pointer">Konabil <br></br> Fullstack Developer</button>
+                    <button onClick={() => setEmpresa('Konabil')} class="timeline-end timeline-box focus:bg-[#171717] focus:text-white bg-transparent text-sm cursor-pointer">Konabil <br></br> Fullstack Developer</button>
                     <hr />
                 </li>
                 <li>
@@ -116,7 +116,7 @@ function Timeline() {
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <button onClick={() => setEmpresa('Simple Moviles')} class="timeline-start md:timeline-end timeline-box focus:bg-black focus:text-white bg-transparent text-sm cursor-pointer">Simple Moviles <br></br> Mobile Developer</button>
+                    <button onClick={() => setEmpresa('Simple Moviles')} class="timeline-start md:timeline-end timeline-box focus:bg-[#171717] focus:text-white bg-transparent text-sm cursor-pointer">Simple Moviles <br></br> Mobile Developer</button>
                     <hr />
                 </li>
                 <li>
@@ -125,7 +125,7 @@ function Timeline() {
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <button onClick={() => setEmpresa('Simple Soluciones')} class="timeline-end timeline-box focus:bg-black focus:text-white bg-transparent text-sm cursor-pointer">Simple Soluciones <br></br> Fullstack Developer</button>
+                    <button onClick={() => setEmpresa('Simple Soluciones')} class="timeline-end timeline-box focus:bg-[#171717] focus:text-white bg-transparent text-sm cursor-pointer">Simple Soluciones <br></br> Fullstack Developer</button>
                     <hr />
 
                 </li>

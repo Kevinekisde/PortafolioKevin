@@ -26,7 +26,7 @@ function CardProjects({ name, id, img, title, description, tipo, color, texto })
           </div>
           <img src={img} alt='Imgcard' className='w-full h-[200px] object-cover object-top rounded-t-xl transition-all shadow-lg' />
         </div>
-        <div id={`${name}id`} className='bg-black h-full text-white flex flex-col justify-center items-center absolute -right-0 rounded-r-2xl px-2 transition-all'>
+        <div id={`${name}id`} className='bg-[#171717] h-full text-white flex flex-col justify-center items-center absolute -right-0 rounded-r-2xl px-2 transition-all'>
           <TbHandClick className='text-2xl' />
           <p>Ver mas</p>
         </div>

@@ -22,6 +22,6 @@ body {
 }
 
 .active{
-  background-color: black !important;
+  background-color: [#171717] !important;
   color: white !important;
 }
