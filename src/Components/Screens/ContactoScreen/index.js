@@ -87,7 +87,7 @@ function ContactoScreen() {
         <div className="container h-screen flex justify-center items-center w-full mx-auto py-10 p-4 md:p-0 2xl:max-w-[1200px] md:max-w-[1000px]">
             {
                 step < 4 &&
-                <Terminal height='400px' name='Kevin contacto' colorMode={ColorMode.Dark} onInput={terminalInput => handleInputChange(terminalInput)}>
+                <Terminal height='500px' name='Kevin contacto' colorMode={ColorMode.Dark} onInput={terminalInput => handleInputChange(terminalInput)}>
                     {terminalLineData}
                 </Terminal>
             }
