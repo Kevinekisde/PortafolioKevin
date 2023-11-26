@@ -25,7 +25,7 @@ function Navbar() {
                     <span className='text-white'>CV Descargado Correctamente</span>
                 </div>
             </div>
-            <a href='/' className='text-xl flex justify-center items-center '> <AiFillCode size={40} /> {`Kevin leiva`}</a>
+            <a href='/' className='text-xl md:text-2xl flex justify-center items-center '> <AiFillCode size={40} /> {`Kevin leiva`}</a>
             <a onClick={handleShow} href={CV} download="Cv_Kevin_leiva" className='btn btn bg-[#171717] text-white font-normal'>
                 <FaFileDownload />
                 Descargar CV
