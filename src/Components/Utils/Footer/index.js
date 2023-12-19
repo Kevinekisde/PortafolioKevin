@@ -41,7 +41,7 @@ function Footer() {
                             <h3 className='text-[#7e7e7e]'>
                                 Gmail
                             </h3>
-                            <a className='text-sm'>kevinomg9@gmail.com</a>
+                            <a className='text-sm'>kevin.levia0305@gmail.com</a>
                         </div>
                     </div>
                 </div>

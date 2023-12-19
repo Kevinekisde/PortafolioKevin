@@ -13,7 +13,7 @@ function Carousel() {
     return (
         <Swiper
             // install Swiper modules
-            modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
             spaceBetween={50}
             slidesPerView={1}
             onSwiper={(swiper) => console.log(swiper)}
